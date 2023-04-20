@@ -1,0 +1,61 @@
+Arguments: 
+  /root/.nvm/versions/node/v16.18.1/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /tmp/yarn--1681962376380-0.5388712842115646:/usr/local/share/.config/yarn/global/node_modules/.bin:/usr/local/share/.config/yarn/link/node_modules/.bin:/root/.nvm/versions/node/v16.18.1/libexec/lib/node_modules/npm/bin/node-gyp-bin:/root/.nvm/versions/node/v16.18.1/lib/node_modules/npm/bin/node-gyp-bin:/root/.nvm/versions/node/v16.18.1/bin/node_modules/npm/bin/node-gyp-bin:/root/.vscode-server-insiders/bin/cc098faebd320a2eea3da6ae154b7e2e1347a4b9/bin/remote-cli:/root/.nvm/versions/node/v16.18.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /root/airobot/airobot-front/package.json: Unexpected token 
+   in JSON at position 41
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "private": true,
+    "author": "xiangsx
+   <1984871009@qq.com>",
+    "scripts": {
+      "dev": "max dev",
+      "build": "max build",
+      "format": "prettier --cache --write .",
+      "prepare": "husky install",
+      "postinstall": "max setup",
+      "setup": "max setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^5.0.1",
+      "@ant-design/pro-components": "^2.4.4",
+      "@umijs/max": "^4.0.65",
+      "antd": "^5.4.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.33",
+      "@types/react-dom": "^18.0.11",
+      "husky": "^8.0.3",
+      "lint-staged": "^13.2.0",
+      "prettier": "^2.8.7",
+      "prettier-plugin-organize-imports": "^3.2.2",
+      "prettier-plugin-packagejson": "^2.4.3",
+      "typescript": "^5.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
